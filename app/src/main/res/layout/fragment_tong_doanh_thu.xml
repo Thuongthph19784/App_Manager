@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#99EF9C"
+            android:gravity="center"
+            android:text="Doanh Thu"
+            android:textColor="#FF5722"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            app:hintEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            tools:layout_editor_absoluteX="-176dp"
+            tools:layout_editor_absoluteY="379dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragment_tong_doanh_thu_edtTuNgay"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Từ Ngày:"
+                android:inputType="date" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            app:hintEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            tools:layout_editor_absoluteX="-176dp"
+            tools:layout_editor_absoluteY="379dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragment_tong_doanh_thu_edtDenNgay"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Đến Ngày:"
+                android:inputType="date" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/fragment_tong_doanh_thu_btnDoanhThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doanh thu"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/fragment_tong_doanh_thu_txtHienThi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

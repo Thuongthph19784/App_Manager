@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/menu_nav_qlTK"
+            android:icon="@drawable/ic_menu"
+            android:title="Quản lý tài khoản"/>
+
+
+    <item android:title="Sản phẩm">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_tLDA"
+                android:icon="@drawable/ic_add"
+                android:title="Thêm Loại đồ ăn"/>
+            <item
+                android:id="@+id/menu_nav_tDA"
+                android:icon="@drawable/ic_add"
+                android:title="Thêm đồ ăn"/>
+        </menu>
+    </item>
+
+    <item android:title="Thống kê">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/menu_nav_tongDoanhThu"-->
+<!--                android:icon="@drawable/ic_baseline_monetization_on_24"-->
+<!--                android:title="Tổng doanh thu"/>-->
+            <item
+                android:id="@+id/menu_nav_topMABC"
+                android:icon="@drawable/ic_baseline_monetization_on_24"
+                android:title="Top 5 món ăn bán chạy nhất"/>
+        </menu>
+    </item>
+
+    <item android:title="Hóa đơn">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_dSHD"
+                android:icon="@drawable/ic_menu"
+                android:title="Danh sách hóa đơn"/>
+        </menu>
+    </item>
+
+    <item android:title="Tài khoản">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_dangXuat"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Thoát" />
+
+        </menu>
+    </item>
+
+
+</menu>
